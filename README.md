@@ -1,13 +1,13 @@
-Test Company Website
+## Test Company Website
 
-Используемые технологии
+**Используемые технологии:**
 
-Frontend: Next js, React, Tailwind
-Размещение: Vercel
+**Frontend**: Next js, React, Tailwind
+**Размещение**: Vercel
 
-Посмотреть сайт можно по этой ссылке['https://test-company-git-main-joyl-scripts-projects.vercel.app/']
+**Посмотреть сайт можно по этой ссылке**['https://test-company-git-main-joyl-scripts-projects.vercel.app/']
 
-Контакты
-Email: majpotejto@gmail.com
-Телефон: 89886290851
-tg: @Pqakwsij
+**Контакты**
+**Email**: majpotejto@gmail.com
+**Телефон**: 89886290851
+**tg**: @Pqakwsij
