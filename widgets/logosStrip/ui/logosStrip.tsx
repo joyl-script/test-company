@@ -19,14 +19,14 @@ export default function LogosStrip() {
         {[...LOGOS, ...LOGOS].map((logo, i) => (
           <div
             key={`${logo.name}-${i}`}
-            className="flex shrink-0 items-center justify-center border-l border-[#E0E0E0] p-13.5"
+            className="flex shrink-0 items-center justify-center border-l border-[#E0E0E0] p-11 md:p-13.5"
           >
             <Image
               src={logo.src}
               alt={logo.name}
-              width={150}
-              height={60}
-              className="grayscale"
+              width={118}
+              height={47}
+              className="grayscale md:w-[150px] md:h-[60px]"
             />
           </div>
         ))}

@@ -2,11 +2,11 @@ import Image from "next/image";
 
 export default function Headline() {
   return (
-    <h1 className="max-w-[403px] ml-30 text-[50px] font-semibold leading-[1.12] ">
+    <h1 className="max-w-[403px] ml-25 text-2xl sm:text-3xl md:text-5xl font-semibold leading-[1.12] ">
       СОЗДАЕМ
       <br />
       <span className="mx-1.5 inline-flex items-center mr-4">
-        <Image src="/Frame 2147227884.svg" alt="" width={165} height={24} className="" />
+        <Image src="/Frame 2147227884.svg" alt="" width={79} height={16} className="sm:w-[94px] sm:h-[20px] md:w-[164px] md:h-[24px]" />
       </span>
       ДИЗАЙН
       <br />
@@ -14,9 +14,9 @@ export default function Headline() {
       <br />
       <span className="inline-flex items-center">БРЕНД<Image src='/_ (1).svg'
         alt=""
-        width={38}
-        height={34}
-        className=""
+        width={20}
+        height={18}
+        className="sm:w-[24px] sm:h-[22px] md:w-[38px] md:h-[34px]"
       />В</span>
     </h1>
   );

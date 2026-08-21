@@ -10,7 +10,7 @@ export default function Logo() {
         height={36}
       />
       <span className="h-1 w-1 rounded-full bg-[#0181C8]" />
-      <span className="font-normal "> Test Company</span>
+      <span className="font-normal text-black hover:text-[#0181C8] transition duration-300 ease-in-out"> Test Company</span>
     </a>
   )
 }

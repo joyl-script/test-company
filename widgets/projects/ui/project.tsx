@@ -12,26 +12,28 @@ export default function Project() {
   ]
 
   return (
-    <section className="mt-25">
+    <section className=" mt-8 lg:mt-25">
       <div className="container ">
         {PROJECT.map((project) => (
-          <div key={project.title} className="flex items-center gap-16 border-b border-[#E1E1E1] py-8">
-            <div key={project.title} className="">
-              <h1 className="font-semibold text-[50px]">{project.title}</h1>
-              <div className="flex gap-2 mt-[173px]">
-                {project.tags.map((tag) => (
-                  <span className="border border-[#B5B5B5] py-1.5 px-4 text-[#9E9E9E] rounded-lg " key={tag}>{tag}</span>
+          <div key={project.title} className="items-center gap-5 lg:gap-16 border-b border-[#E1E1E1] py-8 flex flex-wrap-reverse">
+            <div key={project.title} className="block sm:flex sm:items-end sm:gap-10 lg:block">
+              <h1 className="font-semibold text-[24px] sm:text-3xl md:text-5xl">{project.title}</h1>
+              <div>
+                <div className="flex gap-2 mt-[173px]">
+                  {project.tags.map((tag) => (
+                    <span className="border border-[#B5B5B5] py-1.5 px-4 text-[#9E9E9E] rounded-lg " key={tag}>{tag}</span>
 
-                ))}
+                  ))}
+                </div>
+                <p className="text-[18px] text-black mt-4 max-w-[393px] sm:max-w-[344px] md:max-w- [720px]">{project.desc}</p>
               </div>
-              <p className="text-[18px] text-black mt-4 max-w-[720px]">{project.desc}</p>
             </div>
             <Image
               src={project.image}
               alt={project.title}
-              width={880}
-              height={371}
-              className="ml-auto"
+              width={393}
+              height={160}
+              className="ml-auto sm:w-[688px] sm:h-[250px] md:w-[880px] md:h-[371px]"
             />
           </div>
         ))}
