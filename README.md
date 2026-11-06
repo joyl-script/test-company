@@ -4,14 +4,14 @@
 
 ## 🌐 Демо
 
-👉 https://test-company-umber.vercel.app
+👉 https://joyl-script.github.io/test-company/
 
 ## 🛠 Технологии
 
 - Next.js
 - React
 - Tailwind CSS
-- Деплой: Vercel
+- Деплой: GitHub Pages
 
 ## ⚙️ Функционал
 
