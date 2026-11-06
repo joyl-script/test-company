@@ -3,14 +3,14 @@ import Image from "next/image"
 export default function LogosStrip() {
 
   const LOGOS = [
-    { name: "СУПЕР Моторика", src: "/Group 845212642 (1).svg" },
-    { name: "MIUZ Diamonds", src: "/Group 845213455 (1).svg" },
-    { name: "Тинькофф", src: "/ece38c8f-4d3b-4b22-a7ee-05449e43c2c5 1.svg" },
-    { name: "Tomi.ai", src: "/tomiai-page-logo.svg.svg" },
-    { name: "Энерготэк", src: "/energotekAR-page-logo.svg (1).svg" },
-    { name: "Генезис Проект", src: "/genezisproject-page-logo.svg.svg" },
-    { name: "Polar Bear", src: "/polarbear-page-logo.svg.svg" },
-    { name: "Ukigassen", src: "/ukigassen-page-logo.svg.svg" },
+    { name: "СУПЕР Моторика", src: "/test-company/Group 845212642 (1).svg" },
+    { name: "MIUZ Diamonds", src: "/test-company/Group 845213455 (1).svg" },
+    { name: "Тинькофф", src: "/test-company/ece38c8f-4d3b-4b22-a7ee-05449e43c2c5 1.svg" },
+    { name: "Tomi.ai", src: "/test-company/tomiai-page-logo.svg.svg" },
+    { name: "Энерготэк", src: "/test-company/energotekAR-page-logo.svg (1).svg" },
+    { name: "Генезис Проект", src: "/test-company/genezisproject-page-logo.svg.svg" },
+    { name: "Polar Bear", src: "/test-company/polarbear-page-logo.svg.svg" },
+    { name: "Ukigassen", src: "/test-company/ukigassen-page-logo.svg.svg" },
   ];
 
   return (

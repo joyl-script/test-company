@@ -33,7 +33,7 @@ export default function Header() {
           </div>
           <button className="lg:hidden " onClick={() => setIsMenuOpen(!isMenuOpen)}>
             <Image
-              src={'/Union.svg'}
+              src={'/test-company/Union.svg'}
               alt="burger"
               width={24}
               height={16}

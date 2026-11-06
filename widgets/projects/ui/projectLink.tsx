@@ -8,7 +8,7 @@ export default function ProlectLink() {
           <h1 className="font-semibold text-2xl sm:text-3xl md:text-5xl ">Все проекты</h1>
           <a href="#">
             <Image
-              src='/Group 845213540.svg'
+              src='/test-company/Group 845213540.svg'
               alt=''
               width={17}
               height={17}

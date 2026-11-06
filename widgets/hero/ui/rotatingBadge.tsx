@@ -57,7 +57,7 @@ export default function RotatingBadge({ variant = "filled" }: Props) {
 
         <div className="relative">
           <Image
-            src="/Group 845213540.svg"
+            src="/test-company/Group 845213540.svg"
             alt=""
             width={22}
             height={22}

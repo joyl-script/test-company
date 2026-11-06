@@ -64,13 +64,13 @@ export default function Footer() {
               <div className="flex flex-col gap-4">
                 <div className="flex gap-3.5">
                   <a href="#" className="flex h-8 w-8 items-center justify-center rounded-full bg-white p-1">
-                    <Image src="/Vector (3).svg" alt="vk" width={19} height={17} />
+                    <Image src="/test-company/Vector (3).svg" alt="vk" width={19} height={17} />
                   </a>
                   <a href="#" className="flex h-8 w-8 items-center justify-center rounded-full bg-white p-1">
-                    <Image src="/Vector (4).svg" alt="max" width={19} height={17} />
+                    <Image src="/test-company/Vector (4).svg" alt="max" width={19} height={17} />
                   </a>
                   <a href="#" className="flex h-8 w-8 items-center justify-center rounded-full bg-white p-1">
-                    <Image src="/Telegram.svg" alt="telegram" width={18} height={17} />
+                    <Image src="/test-company/Telegram.svg" alt="telegram" width={18} height={17} />
                   </a>
                 </div>
 
